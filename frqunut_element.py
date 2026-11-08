@@ -14,7 +14,7 @@ max_count=0
 max_frequent=0
 
 for i in count :
-    if count[i] > max_count:
-        max_count = count[i]
-        max_frequent = i
+    if count[i] > max_count: # check the highest frequency
+        max_count = count[i] #update highest frequncy
+        max_frequent = i #store that number
 print(max_frequent)
